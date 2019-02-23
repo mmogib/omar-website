@@ -5,34 +5,13 @@
     :data-background-color="backgroundColor"
   >
     <div class="container">
-      <nav>
-        <ul>
-          <li>
-            <a href="https://www.creative-tim.com">
-              Creative Tim
-            </a>
-          </li>
-          <li>
-            <a href="https:///presentation.creative-tim.com">
-              About Us
-            </a>
-          </li>
-          <li>
-            <a href="https:///blog.creative-tim.com">
-              Blog
-            </a>
-          </li>
-          <li>
-            <a href="https://www.creative-tim.com/license">
-              Licenses
-            </a>
-          </li>
-        </ul>
-      </nav>
       <div class="copyright">
-        &copy; {{ year }}, made with <md-icon>favorite</md-icon> by
-        <a href="https://www.creative-tim.com/" target="_blank">Creative Tim</a>
-        for a better web.
+        &copy; {{ year }}, desgin based
+        <a
+          href="https://www.creative-tim.com/"
+          target="_blank"
+          style="font-size:0.7em;"
+        >Creative Tim</a>
       </div>
     </div>
   </footer>
@@ -46,8 +25,8 @@ export default {
   data() {
     return {
       year: new Date().getFullYear()
-    };
+    }
   }
-};
+}
 </script>
 <style></style>
